@@ -4,7 +4,7 @@ import requests
 from geotext import GeoText
 
 # CPS-847-Bot Slack
-Bot_User_OAuth_Access_Token = 'xoxb-918319805729-920710774465-ZD1asA2FbrTdQiArUp34eHRO'
+Bot_User_OAuth_Access_Token = '<Token>'
 SLACK_API_TOKEN = Bot_User_OAuth_Access_Token
 
 # Hardcoded SLACK_API_TOKEN
@@ -14,7 +14,7 @@ client = SlackClient(slack_token)
 
 def getWeatherInfo(location):
     http = "https://api.openweathermap.org/data/2.5/weather?q=" + \
-        location+"&APPID=d875a99a411c3c52d45d763ae33e6bd9&units=metric"
+        location+"&APPID=<OpenWeatherAPIKey>&units=metric"
     response = requests.get(http)
 
     if response.status_code == 200:
