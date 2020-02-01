@@ -4,7 +4,7 @@ import requests
 from geotext import GeoText
 
 # CPS-847-Bot Slack
-Bot_User_OAuth_Access_Token = 'xoxb-918319805729-920710774465-ZD1asA2FbrTdQiArUp34eHRO'
+Bot_User_OAuth_Access_Token = '<Token>'
 SLACK_API_TOKEN = Bot_User_OAuth_Access_Token
 
 # Hardcoded SLACK_API_TOKEN
