@@ -14,7 +14,7 @@ client = SlackClient(slack_token)
 
 def getWeatherInfo(location):
     http = "https://api.openweathermap.org/data/2.5/weather?q=" + \
-        location+"&APPID=d875a99a411c3c52d45d763ae33e6bd9&units=metric"
+        location+"&APPID=<OpenWeatherAPI Key>&units=metric"
     response = requests.get(http)
 
     if response.status_code == 200:
