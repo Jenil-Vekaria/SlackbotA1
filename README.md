@@ -1,7 +1,6 @@
 # Group 18
-## SlackbotA1
-## 2020
->Simple SlackBot created using Python
+## CPS847 Assignment 1 - Winter 2020
+
 
 
 ![](/under_work.png)
