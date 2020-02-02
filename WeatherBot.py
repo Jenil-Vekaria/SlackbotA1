@@ -4,7 +4,7 @@ import requests
 from geotext import GeoText
 
 
-client = SlackClient('<TOKEN>')
+client = SlackClient('<slackbot token>')
 
 
 def getWeatherInfo(location):
